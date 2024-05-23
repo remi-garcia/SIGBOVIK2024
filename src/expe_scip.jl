@@ -1,6 +1,5 @@
 using JuMP
 using SCIP
-using CheckSolve
 
 model = Model(SCIP.Optimizer)
 set_silent(model)
